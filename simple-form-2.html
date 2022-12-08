@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form 2</title>
+</head>
+<style>
+    #textboxid
+    {
+        height:100px;
+        font-size:14pt;
+    }
+
+</style>
+<body>
+<h1 style="font-weight: bolder;font-size: larger;color: blue;background-color: aqua">ĐĂNG KÝ HỌC VIÊN</h1>
+<form>
+    <label>Họ và tên</label>
+  <input type="text" name="name" value="" style="padding-right: 40px"><br>
+    <br> <br>
+    <label>Ngày sinh</label>
+  <input type="date" name="dayofBirth"><br>
+    <br>
+    <label>Giới tính</label>
+  <input type="radio" name="gender" value="Male">Nam
+  <input type="radio" name="gender" value="Female">Nữ<br><br>
+    <label>Địa chỉ</label>
+    <input id="textboxid" type="text" name="address" ><br>
+    <br>
+    <br>
+   <label>Lớp</label>
+    <select>
+        <option>--Chọn lớp</option>
+        <option>Lớp 1</option>
+        <option>Lớp 2</option>
+        <option>Lớp 3</option>
+    </select>
+    <br>
+    <button type="submit" value="Submit">Đăng ký</button>
+    &emsp;
+    <button type="reset" value="Reset">Nhập lại</button>
+
+
+
+  
+</form>
+
+</body>
+</html>
